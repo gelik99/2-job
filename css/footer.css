@@ -1,0 +1,209 @@
+.footer{
+    padding-top: 30px;
+}
+.wrapper__footer{
+    background-color: #F4F7FB;
+}
+.footer--top{
+    display: flex;
+}
+.list__block--left{
+    display: flex;
+}
+.item__block--title{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #282739;
+}
+.item__block--tel{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #282739;
+}
+.item__block_bottom--tel{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #5D6C7B;
+
+}
+.item__block--link{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5D6C7B;
+    flex: none;
+    margin-top: 10px;
+}
+.item__block--left:first-child{
+    margin-right: 125px;
+}
+.item__block--left:nth-child(2){
+    margin-right: 45px;
+}
+.item__block_none{
+    margin-top: 42px;
+}
+.footer__link{
+    position: relative;
+    top: 20px;
+    left: 500px;
+    white-space: nowrap;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;  
+    color: #6F73EE;
+}
+.block_link{
+    display: flex;
+    flex-direction: column;
+}
+.list__block--right{
+    display: flex;
+}
+.item__block--right:not(:last-child){
+    margin-right: 30px;
+}
+.item__block--right_none{
+    margin-top: 45px;
+}
+.list__block--right_bottom{
+    display: flex;
+    margin-top: 30px;
+}
+.footer__address{
+    width: 144px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #282739;
+}
+input::placeholder {
+    color: white;
+  }
+.footer__address:not(:last-child){
+    margin-right: 50px;
+}
+/*  center */
+.footer__center{
+    display: flex;
+    height: 115px;
+    border-top: 1px solid #c5c7cf;
+    border-bottom: 1px solid #c5c7cf;
+    align-items: center;
+}
+p{
+    margin: 0;
+}
+.footer__center--IO{
+    margin-left: 60px;
+    display: flex;
+}
+.footer__button--IO:not(:last-child){
+    margin-right: 10px;
+}
+.footer__button--IO {
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 0;
+    padding: 0;
+}
+.footer__button--masanger{
+    margin-left: 117px;
+    display: flex;
+}
+.button--masanger{
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    display: flex;
+    padding-left: 7px;
+}
+.button--masanger:not(:last-child){
+    margin-right: 8px;
+}
+.button--masanger_VK{
+    background-image: url('../img2/vk.svg');
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 23px;
+}
+.button--masanger_INST{
+    background-image: url('../img2/013-instagram\ 1.svg');
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 23px;
+}
+.button--masanger_YT{
+    background-image: url('../img2/018-youtube\ 1.svg');
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 23px;
+}
+.button--masanger_T{
+    background-image: url('../img2/telega.svg');
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 23px;
+}
+.p--masanger__top{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #282739;
+}
+.p--masanger__bottom{
+    width: 80px;
+    height: 14px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #5D6C7B;
+}
+/* footer__bottom */
+.footer__botoom{
+    display: flex;
+    align-items: center;
+}
+.footer--link:first-child{
+    margin-right: 45px;
+}
+.footer--link:last-child{
+    margin-right: 342px;
+}
+.footer--link{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #5D6C7B;
+}
+.footer__botoom--img{
+    margin-right: 37px;
+}
+.footer__shat{
+    margin-right: 16px;
+}
+.botoom__shat:not(:last-child){
+    margin-right: 15px;
+}
