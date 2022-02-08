@@ -1,0 +1,40 @@
+.list__samokat{
+    max-width: 1140px;
+    /* position:relative; */
+    display: flex;
+    align-items: center;
+}
+.item__samokat:first-child{
+    margin-right: 290px;
+}
+
+.item-h1__samokat{
+font-family: Jost;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 51px;
+text-transform: uppercase;
+color: #282739;
+}
+.samokat-button{
+    width: 103px;
+    height: 37px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #6F73EE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+.samokat{
+    background-color: white;
+    border: 1px solid #6F73EE;
+}
