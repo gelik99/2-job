@@ -1,0 +1,113 @@
+main{
+    margin-top: 20px;
+}
+
+.list-item{
+    margin-bottom: 40px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center left;
+    width: 1380px;
+    height: 421px;
+    background-image: url('../img2/задний.svg');
+}
+.item__button-top{
+    position: relative;
+    padding: 1px 11px;
+    left: 138px;
+    top: 39px;
+    font-family: Jost;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background:#6F73EE;
+    border:1px solid #FFFFFF;
+    border-radius: 5px ;
+}
+.item-title{
+    position: relative;
+    width: 615px;
+    left: 138px;
+    top: 40px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.item-desxription{
+    position: relative;
+    width: 349px;
+    height: 29px;
+    left: 138px;
+    top: 11px;
+    font-family: Jost;
+    font-weight: lighter;
+    color: white;
+}
+.item__button{
+    position: relative;
+    padding: 15px 25px;
+    left: 138px;
+    top: 25px;
+    color: #6F73EE;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    border: 0px;
+}
+.item__button-bottom{
+    position: relative;
+    left: 450px;
+    right: 534px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0px;
+}
+.item-div{
+    position: relative;
+    left: -374px;
+    top: 102px;
+}
+
+
+/* 2 section */
+.section--list{
+    display: flex;
+}
+.list__item:not(:last-child){
+    margin-right: 78px;
+}
+.list__item:last-child{
+    margin-left: auto;
+}
+.list__item-h1{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-transform: uppercase;  
+    color: #282739;
+    margin: 0;
+}
+.list__item-h5{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #282739;
+    margin: 0;
+}
